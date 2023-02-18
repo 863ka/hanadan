@@ -53,11 +53,12 @@ header {
   position: fixed;
   right: 30px;
   top: 10px;
+  z-index: 800;
 }
 .gnav ul{
   font-size: 30px;
   font-weight: 700;
-  text-shadow: 1px 1px 3px rgb(0, 0, 0, 0.1) ;
+  text-shadow: 1px 1px 3px rgb(0, 0, 0, 0.05) ;
   display: flex;
   justify-content: flex-end;
   align-items: center;
