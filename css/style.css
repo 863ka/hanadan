@@ -48,17 +48,31 @@ li {
 /*-------------------------------------------
 Mainvisual
 -------------------------------------------*/
-#mainvisual {
-  display: flex;
-  justify-content: center;
-  overflow-x: hidden;
+
+.mov_area {
+  position: fixed;
+  left: 0;
+  top: 0;
 }
-#mainvisual img {
-  width: calc(100% / 3);
+
+
+.mov_area video {
+  width: 100vw;
   height: 100vh;
-  flex-shrink: 0;
   object-fit: cover;
 }
+
+.mov_area h1.logo{
+  position: absolute;
+  left:50%;
+  top:50%;
+  transform: translate(-50%,-50%);
+  color: white;
+  font-weight: 700;
+  font-size: 60px;
+}
+
+
 
 /*-------------------------------------------
 Information
